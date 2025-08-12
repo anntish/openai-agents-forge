@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "d6e951d6-3a2d-4d6f-82e5-5a8e5e401f20",
+		"name": "OpenAI Agents",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31027321"
+	},
+	"item": [
+		{
+			"name": "Send request to agents",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"query\": \"2+2 and weather in Moscow\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8005/query",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8005",
+					"path": [
+						"query"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
