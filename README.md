@@ -3,7 +3,7 @@
 ### 1. Installation
 
 ```bash
-pip install hivetrace[openai_agents]==1.3.4
+pip install hivetrace[openai_agents]==1.3.8
 ```
 
 ---
