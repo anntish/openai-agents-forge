@@ -1,4 +1,4 @@
-### OpenAI Agents + HiveTrace: How to Enable Monitoring in 5 Minutes
+### HiveTrace Integration with OpenAI Agents — Step-by-Step Guide
 
 ### 1. Installation
 
